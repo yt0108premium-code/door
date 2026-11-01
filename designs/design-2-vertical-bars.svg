@@ -24,6 +24,6 @@
   <path d="M641 430 H760" class="thin"/><text x="775" y="420" class="label">13 vertical bars</text><text x="775" y="446" class="note">25×25×1.5 mm</text><text x="775" y="470" class="note">clear gap ≈ 31 mm</text>
   <path d="M642 795 H760" class="thin"/><text x="775" y="784" class="label">3 support rails</text><text x="775" y="810" class="note">25×25×1.5 mm</text>
 
-  <rect x="700" y="895" width="235" height="100" rx="12" fill="#e8f3ec" stroke="#3f7d52" stroke-width="2"/><text x="722" y="934" class="label" fill="#245c38">EST. FINISHED WEIGHT</text><text x="767" y="978" style="font:700 34px Arial;fill:#245c38">≈ 43 kg</text>
+  <rect x="700" y="895" width="235" height="100" rx="12" fill="#e8f3ec" stroke="#3f7d52" stroke-width="2"/><text x="722" y="934" class="label" fill="#245c38">EST. FINISHED WEIGHT</text><text x="767" y="978" style="font:700 34px Arial;fill:#245c38">~ 43 kg</text>
   <rect x="70" y="1150" width="860" height="105" rx="8" fill="#fff7ed" stroke="#fb923c"/><text x="92" y="1183" class="label">FABRICATION NOTE</text><text x="92" y="1213" class="note">Use three heavy-duty hinges and reinforcement plates on the 16G hinge stile.</text><text x="92" y="1241" class="note">Tight 31 mm openings provide a simple security-focused infill.</text>
 </svg>

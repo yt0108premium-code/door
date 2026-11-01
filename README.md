@@ -8,10 +8,10 @@
 
 | Design | Preview | Main material | Estimated weight |
 |---|---|---|---:|
-| 1. Plain solid panel | [![Plain solid-panel gate](designs/design-1-solid-panel.svg)](designs/design-1-solid-panel.svg) | 14G frame + 16G sheet | **≈ 41 kg** |
-| 2. Vertical bars | [![Vertical-bar gate](designs/design-2-vertical-bars.svg)](designs/design-2-vertical-bars.svg) | 16G tubes | **≈ 43 kg** |
-| 3. Horizontal slats | [![Horizontal-slat gate](designs/design-3-horizontal-slats.svg)](designs/design-3-horizontal-slats.svg) | 14G tubes | **≈ 43 kg** |
-| 4. Half sheet + bars | [![Half-panel gate](designs/design-4-half-panel.svg)](designs/design-4-half-panel.svg) | 14G tubes/sheet | **≈ 41 kg** |
+| 1. Plain solid panel | [![Plain solid-panel gate](designs/design-1-solid-panel.png)](designs/design-1-solid-panel.png) | 14G frame + 16G sheet | **≈ 41 kg** |
+| 2. Vertical bars | [![Vertical-bar gate](designs/design-2-vertical-bars.png)](designs/design-2-vertical-bars.png) | 16G tubes | **≈ 43 kg** |
+| 3. Horizontal slats | [![Horizontal-slat gate](designs/design-3-horizontal-slats.png)](designs/design-3-horizontal-slats.png) | 14G tubes | **≈ 43 kg** |
+| 4. Half sheet + bars | [![Half-panel gate](designs/design-4-half-panel.png)](designs/design-4-half-panel.png) | 14G tubes/sheet | **≈ 41 kg** |
 
 ## Common finished size
 
@@ -24,7 +24,7 @@
 
 ## Design 1: Plain solid panel, privacy-first
 
-**Image:** [`designs/design-1-solid-panel.svg`](designs/design-1-solid-panel.svg)
+**Images:** [`PNG`](designs/design-1-solid-panel.png) · [`SVG`](designs/design-1-solid-panel.svg)
 
 - Outer frame: 40 × 40 × 1.9 mm MS square tube, 14G
 - Skin: 758 × 1,901 × 1.5 mm MS sheet, 16G
@@ -35,7 +35,7 @@
 
 ## Design 2: Vertical bars, 16-gauge option
 
-**Image:** [`designs/design-2-vertical-bars.svg`](designs/design-2-vertical-bars.svg)
+**Images:** [`PNG`](designs/design-2-vertical-bars.png) · [`SVG`](designs/design-2-vertical-bars.svg)
 
 - Outer frame: 40 × 40 × 1.5 mm MS square tube, 16G
 - Infill: 13 vertical bars, 25 × 25 × 1.5 mm MS tube, 16G
@@ -47,7 +47,7 @@
 
 ## Design 3: Horizontal slats
 
-**Image:** [`designs/design-3-horizontal-slats.svg`](designs/design-3-horizontal-slats.svg)
+**Images:** [`PNG`](designs/design-3-horizontal-slats.png) · [`SVG`](designs/design-3-horizontal-slats.svg)
 
 - Outer frame: 40 × 40 × 1.9 mm MS square tube, 14G
 - Slats: 15 pieces, 50 × 25 × 1.9 mm rectangular MS tube, 14G
@@ -59,7 +59,7 @@
 
 ## Design 4: Half sheet + upper bars
 
-**Image:** [`designs/design-4-half-panel.svg`](designs/design-4-half-panel.svg)
+**Images:** [`PNG`](designs/design-4-half-panel.png) · [`SVG`](designs/design-4-half-panel.svg)
 
 - Outer frame: 40 × 40 × 1.9 mm MS square tube, 14G
 - Lower sheet: 758 × 900 × 1.9 mm MS sheet, 14G
