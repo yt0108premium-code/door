@@ -1,0 +1,16 @@
+Item,Section or material,Thickness_mm,Quantity,Each_size_mm,Net_length_or_area,Estimated_weight_kg,Notes
+Outer vertical stiles,50x25 RHS,1.5,2,1981,3.962 m,6.718,45-degree miter ends
+Outer top and bottom rails,50x25 RHS,1.5,2,838,1.676 m,2.842,45-degree miter ends
+Upper side dividers,25x25 SHS,1.5,2,780,1.560 m,1.727,
+Lower side dividers,25x25 SHS,1.5,2,751,1.502 m,1.662,
+Middle separator rails,25x25 SHS,1.5,2,738,1.476 m,1.634,
+Middle panel centre stiffener,25x25 SHS,1.5,1,300,0.300 m,0.332,
+Upper horizontal louvers,40x20 RHS,1.5,12,468,5.616 m,7.539,Install at equal spacing and about 15-degree downward tilt
+Lower horizontal louvers,40x20 RHS,1.5,11,468,5.148 m,6.910,Install at equal spacing and about 15-degree downward tilt
+Middle solid panel,Plain MS sheet,1.5,1,738x300,0.2214 m2,2.607,
+Upper perforated backing,Perforated MS sheet,1.5,1,738x780,0.5756 m2 gross,3.389,Weight assumes 50 percent open area
+Lower perforated backing,Perforated MS sheet,1.5,1,738x751,0.5542 m2 gross,3.263,Weight assumes 50 percent open area
+Hinge reinforcement plates,Plain MS plate,3.0,3,100x50,0.0150 m2,0.353,
+Lock reinforcement plate,Plain MS plate,3.0,1,150x100,0.0150 m2,0.353,
+Hardware and weld allowance,Hinges lock latch weld metal,,1,set,,2.800,Approximate
+TOTAL FINISHED GATE,,,,,,42.129,Practical tolerance plus or minus 10 percent

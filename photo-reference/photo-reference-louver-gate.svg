@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1400" viewBox="0 0 1200 1400" role="img" aria-labelledby="title desc">
+  <title id="title">Photo-reference louver and mesh steel gate</title>
+  <desc id="desc">Fabrication elevation for a 33 by 78 inch gate with upper and lower horizontal louvers, perforated backing, side mesh strips, a solid middle lock panel, and 14 or 16 gauge weight estimates.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 z" fill="#334155"/></marker>
+    <pattern id="mesh" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#d7e0e6"/><circle cx="3" cy="3" r="1.4" fill="#657786"/><circle cx="8" cy="8" r="1.4" fill="#657786"/></pattern>
+    <pattern id="panel" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#dfe7ec"/><path d="M0 12L12 0" stroke="#c1cdd5" stroke-width="1"/></pattern>
+    <style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#172033}.title{font-size:35px;font-weight:700}.sub{font-size:19px;fill:#475569}.label{font-size:18px;font-weight:700}.note{font-size:16px;fill:#334155}.small{font-size:14px;fill:#475569}.dim{stroke:#334155;stroke-width:2;marker-start:url(#arrow);marker-end:url(#arrow)}.ext{stroke:#94a3b8;stroke-width:1.5}.frame{fill:#273746}.inner{fill:#657786}.louver{fill:#a7b5bf;stroke:#596a78;stroke-width:1}.call{stroke:#64748b;stroke-width:2;fill:none}
+    </style>
+  </defs>
+  <rect width="1200" height="1400" fill="#f8fafc"/>
+  <text x="60" y="56" class="title">PHOTO-REFERENCE GATE — LOUVERS + MESH</text>
+  <text x="60" y="88" class="sub">33 × 78 in finished leaf · 14G and 16G material schedules</text>
+
+  <!-- overall dimensions -->
+  <line x1="260" y1="140" x2="195" y2="140" class="ext"/><line x1="260" y1="1040" x2="195" y2="1040" class="ext"/>
+  <line x1="210" y1="140" x2="210" y2="1040" class="dim"/><text x="180" y="650" class="label" transform="rotate(-90 180 650)">1,981 mm / 78 in</text>
+  <line x1="260" y1="1060" x2="260" y2="1118" class="ext"/><line x1="640" y1="1060" x2="640" y2="1118" class="ext"/>
+  <line x1="260" y1="1095" x2="640" y2="1095" class="dim"/><text x="365" y="1125" class="label">838 mm / 33 in</text>
+
+  <!-- frame and inner opening -->
+  <rect x="260" y="140" width="380" height="900" rx="2" class="frame"/>
+  <rect x="283" y="163" width="334" height="854" fill="#eef3f6"/>
+
+  <!-- upper perforated panel -->
+  <rect x="283" y="163" width="334" height="354" fill="url(#mesh)"/>
+  <rect x="334" y="163" width="12" height="354" class="inner"/><rect x="554" y="163" width="12" height="354" class="inner"/>
+  <g class="louver">
+    <rect x="346" y="181" width="208" height="11"/><rect x="346" y="208" width="208" height="11"/><rect x="346" y="235" width="208" height="11"/><rect x="346" y="262" width="208" height="11"/><rect x="346" y="289" width="208" height="11"/><rect x="346" y="316" width="208" height="11"/><rect x="346" y="343" width="208" height="11"/><rect x="346" y="370" width="208" height="11"/><rect x="346" y="397" width="208" height="11"/><rect x="346" y="424" width="208" height="11"/><rect x="346" y="451" width="208" height="11"/><rect x="346" y="478" width="208" height="11"/>
+  </g>
+
+  <!-- middle panel -->
+  <rect x="283" y="517" width="334" height="12" class="inner"/>
+  <rect x="283" y="529" width="334" height="136" fill="url(#panel)" stroke="#657786" stroke-width="2"/>
+  <rect x="444" y="529" width="12" height="136" class="inner"/>
+  <rect x="283" y="665" width="334" height="12" class="inner"/>
+  <circle cx="595" cy="573" r="10" fill="#f59e0b" stroke="#172033" stroke-width="2"/>
+  <rect x="563" y="590" width="45" height="12" rx="3" fill="#172033"/>
+
+  <!-- lower perforated panel -->
+  <rect x="283" y="677" width="334" height="340" fill="url(#mesh)"/>
+  <rect x="334" y="677" width="12" height="340" class="inner"/><rect x="554" y="677" width="12" height="340" class="inner"/>
+  <g class="louver">
+    <rect x="346" y="696" width="208" height="11"/><rect x="346" y="724" width="208" height="11"/><rect x="346" y="752" width="208" height="11"/><rect x="346" y="780" width="208" height="11"/><rect x="346" y="808" width="208" height="11"/><rect x="346" y="836" width="208" height="11"/><rect x="346" y="864" width="208" height="11"/><rect x="346" y="892" width="208" height="11"/><rect x="346" y="920" width="208" height="11"/><rect x="346" y="948" width="208" height="11"/><rect x="346" y="976" width="208" height="11"/>
+  </g>
+
+  <!-- hinges -->
+  <rect x="247" y="240" width="14" height="68" rx="4" fill="#f59e0b"/><rect x="247" y="557" width="14" height="68" rx="4" fill="#f59e0b"/><rect x="247" y="872" width="14" height="68" rx="4" fill="#f59e0b"/>
+
+  <!-- callouts -->
+  <path d="M640 190 H760 V215" class="call"/><text x="780" y="205" class="label">Outer frame</text><text x="780" y="231" class="note">50×25 RHS · 45° miter</text>
+  <path d="M554 310 H760" class="call"/><text x="780" y="300" class="label">Upper: 12 louvers</text><text x="780" y="326" class="note">40×20 RHS · 468 mm long</text>
+  <path d="M617 410 H760" class="call"/><text x="780" y="400" class="label">Perforated backing</text><text x="780" y="426" class="note">738×780 upper · 50% open assumed</text>
+  <path d="M617 575 H760" class="call"/><text x="780" y="565" class="label">Middle solid panel</text><text x="780" y="591" class="note">738×300 mm + centre stiffener</text>
+  <path d="M554 820 H760" class="call"/><text x="780" y="810" class="label">Lower: 11 louvers</text><text x="780" y="836" class="note">40×20 RHS · 468 mm long</text>
+  <path d="M617 910 H760" class="call"/><text x="780" y="900" class="label">Side mesh strips</text><text x="780" y="926" class="note">110 mm clear width each side</text>
+
+  <!-- quantity summary -->
+  <rect x="690" y="970" width="220" height="115" rx="12" fill="#e8f3ec" stroke="#3f7d52" stroke-width="2"/>
+  <text x="720" y="1003" class="label" style="fill:#245c38">14 GAUGE · 1.9 mm</text><text x="730" y="1048" style="font:700 32px Arial;fill:#245c38">~ 51.9 kg</text><text x="726" y="1073" class="small">complete gate estimate</text>
+  <rect x="930" y="970" width="220" height="115" rx="12" fill="#e8f0fa" stroke="#356a9a" stroke-width="2"/>
+  <text x="960" y="1003" class="label" style="fill:#234f78">16 GAUGE · 1.5 mm</text><text x="970" y="1048" style="font:700 32px Arial;fill:#234f78">~ 42.1 kg</text><text x="966" y="1073" class="small">complete gate estimate</text>
+
+  <rect x="60" y="1175" width="1090" height="165" rx="10" fill="#fff7ed" stroke="#fb923c"/>
+  <text x="85" y="1210" class="label">STEEL PURCHASE — SAME CUT QUANTITY FOR BOTH GAUGES</text>
+  <text x="85" y="1242" class="note">50×25 RHS: 5.638 m → buy 1×6 m   ·   25×25 SHS: 4.838 m → buy 1×6 m</text>
+  <text x="85" y="1272" class="note">40×20 RHS: 10.764 m → buy 2×6 m   ·   Plain sheet: 738×300 mm</text>
+  <text x="85" y="1302" class="note">Perforated sheet: 738×780 + 738×751 mm = 1.130 m² gross</text>
+  <text x="85" y="1330" class="small">Weights assume MS and 50% open perforated sheet. Verify actual gauge thickness and mesh open area before fabrication.</text>
+</svg>

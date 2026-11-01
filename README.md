@@ -87,3 +87,23 @@
 - privacy + हवा दोनों चाहिए: **Design 4**
 
 ये concept/fabrication drawings हैं, stamped structural drawings नहीं। Site condition और local safety rules के अनुसार qualified fabricator/engineer final sections, anchors और welds verify करे।
+
+## Photo-reference design: louvers + mesh + middle panel
+
+आपकी भेजी हुई gate photo के pattern पर अलग fabrication drawing और complete material schedule जोड़ा गया है। यह भी **838 × 1,981 mm (33 × 78 inch) finished leaf** पर आधारित है।
+
+[![Photo-reference louver gate](photo-reference/photo-reference-louver-gate.png)](photo-reference/photo-reference-louver-gate.png)
+
+- **14G complete gate:** लगभग **51.9 kg**
+- **16G complete gate:** लगभग **42.1 kg**
+- Exact tube requirement: **21.240 m**
+- Practical purchase: **50×25 की 1 × 6 m, 25×25 की 1 × 6 m, 40×20 की 2 × 6 m lengths**
+- Plain sheet: **738 × 300 mm**
+- Perforated sheet: **1.130 m² gross**
+
+पूरी cutting list, purchase quantity, component-wise weight और fabrication notes:
+
+- [`Complete material details`](photo-reference/MATERIAL-DETAILS.md)
+- [`14-gauge BOM CSV`](photo-reference/bom-14-gauge.csv)
+- [`16-gauge BOM CSV`](photo-reference/bom-16-gauge.csv)
+- [`Editable SVG drawing`](photo-reference/photo-reference-louver-gate.svg)
