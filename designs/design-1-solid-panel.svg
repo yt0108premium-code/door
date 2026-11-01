@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1300" viewBox="0 0 1000 1300" role="img" aria-labelledby="title desc">
+  <title id="title">Design 1 - Plain solid-panel steel gate</title>
+  <desc id="desc">Front elevation of a 33 by 78 inch mild-steel gate with 14 gauge frame, 16 gauge sheet, hidden supports, and estimated weight 41 kilograms.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 z" fill="#334155"/></marker>
+    <pattern id="steel" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#dbe4ea"/><path d="M0 12L12 0" stroke="#cbd5df" stroke-width="1"/></pattern>
+    <style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#172033}.title{font-size:34px;font-weight:700}.sub{font-size:19px;fill:#475569}.label{font-size:18px;font-weight:700}.note{font-size:17px;fill:#334155}.dim{stroke:#334155;stroke-width:2;marker-start:url(#arrow);marker-end:url(#arrow)}.ext{stroke:#94a3b8;stroke-width:1.5}.hidden{stroke:#2563eb;stroke-width:8;stroke-dasharray:14 10;opacity:.58}.frame{fill:#263746}.thin{stroke:#94a3b8;stroke-width:2;fill:none}
+    </style>
+  </defs>
+  <rect width="1000" height="1300" fill="#f8fafc"/>
+  <text x="70" y="58" class="title">DESIGN 1 — PLAIN SOLID PANEL</text>
+  <text x="70" y="90" class="sub">33 × 78 in finished leaf · privacy-first · simple flat face</text>
+
+  <!-- dimensions -->
+  <line x1="280" y1="120" x2="220" y2="120" class="ext"/><line x1="280" y1="1020" x2="220" y2="1020" class="ext"/>
+  <line x1="235" y1="120" x2="235" y2="1020" class="dim"/><text x="205" y="640" class="label" transform="rotate(-90 205 640)">1,981 mm / 78 in</text>
+  <line x1="280" y1="1040" x2="280" y2="1100" class="ext"/><line x1="660" y1="1040" x2="660" y2="1100" class="ext"/>
+  <line x1="280" y1="1080" x2="660" y2="1080" class="dim"/><text x="385" y="1110" class="label">838 mm / 33 in</text>
+
+  <!-- gate -->
+  <rect x="280" y="120" width="380" height="900" rx="2" class="frame"/>
+  <rect x="298" y="138" width="344" height="864" fill="url(#steel)" stroke="#64748b" stroke-width="2"/>
+  <!-- hidden support layout -->
+  <line x1="315" y1="300" x2="625" y2="300" class="hidden"/><line x1="315" y1="455" x2="625" y2="455" class="hidden"/>
+  <line x1="315" y1="610" x2="625" y2="610" class="hidden"/><line x1="315" y1="765" x2="625" y2="765" class="hidden"/>
+  <line x1="315" y1="920" x2="625" y2="920" class="hidden"/><line x1="470" y1="155" x2="470" y2="985" class="hidden"/>
+  <rect x="615" y="555" width="12" height="80" rx="4" fill="#172033"/><circle cx="608" cy="595" r="7" fill="#f59e0b"/>
+  <rect x="267" y="230" width="14" height="70" rx="4" fill="#f59e0b"/><rect x="267" y="535" width="14" height="70" rx="4" fill="#f59e0b"/><rect x="267" y="840" width="14" height="70" rx="4" fill="#f59e0b"/>
+
+  <!-- callouts -->
+  <path d="M660 190 H760 V230" class="thin"/><text x="775" y="218" class="label">Outer frame</text><text x="775" y="244" class="note">40×40×1.9 mm</text><text x="775" y="268" class="note">14 gauge MS</text>
+  <path d="M642 430 H760" class="thin"/><text x="775" y="421" class="label">Flat sheet skin</text><text x="775" y="447" class="note">1.5 mm · 16G</text>
+  <path d="M625 765 H760" stroke="#2563eb" stroke-width="2" stroke-dasharray="8 6"/><text x="775" y="756" class="label">Hidden supports</text><text x="775" y="782" class="note">25×25×1.9 mm</text><text x="775" y="806" class="note">5 horizontal + 1 vertical</text>
+
+  <rect x="700" y="895" width="235" height="100" rx="12" fill="#e8f3ec" stroke="#3f7d52" stroke-width="2"/>
+  <text x="722" y="934" class="label" fill="#245c38">EST. FINISHED WEIGHT</text><text x="767" y="978" style="font:700 34px Arial;fill:#245c38">≈ 41 kg</text>
+
+  <rect x="70" y="1150" width="860" height="105" rx="8" fill="#fff7ed" stroke="#fb923c"/>
+  <text x="92" y="1183" class="label">FABRICATION NOTE</text>
+  <text x="92" y="1213" class="note">Use staggered/skip welds on the sheet to reduce heat distortion.</text>
+  <text x="92" y="1241" class="note">Solid face catches the most wind; verify post, anchors and hinges for the site.</text>
+</svg>
